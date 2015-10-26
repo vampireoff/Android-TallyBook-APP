@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <include 
+        android:id="@+id/head"
+        layout = "@layout/head"
+        android:layout_alignParentTop="true"
+        />
+    
+    <TextView 
+        android:id="@+id/maintext"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerInParent="true"
+    	android:text="一条账单信息都没有~"
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+    	android:paddingTop="30dp"
+    	android:paddingBottom="30dp"
+    	android:textColor="@color/blue"
+    	android:textSize="20sp"
+    	android:background="@drawable/maintext_shape"
+    	android:visibility="gone"
+        />
+    
+    <ListView 
+        android:id="@+id/mainlist"
+    	android:visibility="gone"
+        android:layout_below="@id/head"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginBottom="10dp"
+    	android:cacheColorHint="#00000000"
+    	android:listSelector="#00000000"
+    	android:scrollbarStyle="outsideOverlay"
+    	android:divider="@color/transparent"
+    	android:dividerHeight="10dp"
+        ></ListView>
+    
+</RelativeLayout>
+

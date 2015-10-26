@@ -1,0 +1,6 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="indexbar_size">14dp</dimen>
+	<dimen name="unlockimg">80dp</dimen>
+</resources>

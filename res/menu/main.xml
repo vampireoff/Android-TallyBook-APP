@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lwd.mydiary.MainActivity" 
+    >
+
+    <item
+        android:id="@+id/creat"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="创建手势密码"/>
+    <item
+        android:id="@+id/onoff"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="手势密码开关"/>
+
+</menu>
